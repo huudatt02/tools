@@ -28,7 +28,7 @@ disabled = false
 style = "fg:text_black bg:gray"
 
 [os.symbols]
-Windows = " 󰖳"
+Windows = " 󰍲"
 Ubuntu  = " 󰕈"
 NixOS   = " 󱄅"
 Mint    = " 󰣭"
