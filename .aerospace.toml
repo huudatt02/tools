@@ -91,25 +91,25 @@ automatically-unhide-macos-hidden-apps = false
     shift-down = ['volume set 0', 'mode main']
 
 [[on-window-detected]]
-if.app-id = 'org.mozilla.firefox'
-run = "move-node-to-workspace B"
+    if.app-id = 'org.mozilla.firefox'
+    run = "move-node-to-workspace B"
 
 [[on-window-detected]]
-if.app-id = 'com.apple.finder'
-run = "move-node-to-workspace D"
+    if.app-id = 'com.apple.finder'
+    run = "move-node-to-workspace D"
 
 [[on-window-detected]]
-if.app-id = 'com.apple.Notes'
-run = "move-node-to-workspace N"
+    if.app-id = 'com.apple.Notes'
+    run = "move-node-to-workspace N"
 
 [[on-window-detected]]
-if.app-id = 'com.apple.Preview'
-run = "move-node-to-workspace R"
+    if.app-id = 'com.apple.Preview'
+    run = "move-node-to-workspace R"
 
 [[on-window-detected]]
-if.app-id ='com.mitchellh.ghostty'
-run = "move-node-to-workspace T"
+    if.app-id ='com.mitchellh.ghostty'
+    run = "move-node-to-workspace T"
 
 [[on-window-detected]]
-if.app-id = 'com.obsproject.obs-studio'
-run = 'move-node-to-workspace V'
+    if.app-id = 'com.obsproject.obs-studio'
+    run = 'move-node-to-workspace V'
