@@ -81,7 +81,7 @@ format = '[ $symbol ($version)]($style)'
 [python]
 symbol = "󰌠"
 style = "fg:text_blue bg:dark_blue"
-format = '[ $symbol( $version)(\(#$virtualenv\))]($style)'
+format = '[ $symbol ($version)(\(#$virtualenv\))]($style)'
 
 [time]
 disabled = false
