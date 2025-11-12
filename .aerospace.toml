@@ -110,3 +110,10 @@ automatically-unhide-macos-hidden-apps = false
 [[on-window-detected]]
     if.app-id = 'com.obsproject.obs-studio'
     run = 'move-node-to-workspace V'
+
+[workspace-to-monitor-force-assignment]
+    B = 'main'
+    T = 'secondary'
+    A = 'secondary'
+    D = 'main'
+    W = 'main'
